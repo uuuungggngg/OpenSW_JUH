@@ -5,7 +5,7 @@ pulbic:
 	int size;
 	int *data;
 	VectorClass(){
-		size = 30;
+		size = 50;
 		data = new int[size];
 		for (int i = 0 ; i < size; i++){
 			data[i] = i;
